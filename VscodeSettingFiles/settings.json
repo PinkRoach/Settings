@@ -1,0 +1,41 @@
+{
+    // Common Settings
+    "workbench.colorTheme": "Monokai",
+    "editor.fontFamily": "Cica",
+    "editor.renderLineHighlight": "gutter",
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.tips.enabled": false,
+    "C_Cpp.clang_format_sortIncludes": false,
+    "editor.formatOnType": true,
+    "editor.folding": false,
+    "breadcrumbs.enabled": true,
+    "workbench.startupEditor": "none",
+    "workbench.list.horizontalScrolling": true,
+    "editor.minimap.enabled": false,
+    "editor.formatOnPaste": true,
+
+    // Theme Settings
+    "editor.tokenColorCustomizations": {
+        "[Monokai]": {
+            "textMateRules": [
+                {
+                    "name": "Storage type",
+                    "scope": "storage.type",
+                    "settings": {
+                        "fontStyle": "",
+                        "foreground": "#66D9EF"
+                    }
+                }
+            ],
+        }
+    },
+    "workbench.colorCustomizations": {
+        "[Monokai]": {
+            "editor.background": "#111111",
+            "sideBar.background": "#222222",
+            "tab.inactiveBackground": "#222222",
+            "editor.selectionHighlightBackground": "#e320f53b",
+            "editor.selectionBackground": "#850101e0",
+        }
+    },
+}
