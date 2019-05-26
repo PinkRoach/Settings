@@ -38,4 +38,5 @@
             "editor.selectionBackground": "#850101e0",
         }
     },
+    "editor.acceptSuggestionOnEnter": "off",
 }
