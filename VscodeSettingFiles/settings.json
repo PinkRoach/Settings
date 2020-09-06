@@ -1,19 +1,46 @@
 {
-    // Common Settings
-    "workbench.colorTheme": "Monokai",
-    "editor.fontFamily": "Cica",
+    "breadcrumbs.enabled": true,
+    "C_Cpp.clang_format_sortIncludes": false,
+    "csharp.referencesCodeLens.enabled": false,
+    "csharpfixformat.style.braces.onSameLine": false,
+    "csharpfixformat.style.spaces.afterBracket": false,
+    "csharpfixformat.style.spaces.afterParenthesis": false,
+    "csharpfixformat.style.spaces.beforeParenthesis": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.autoIndent": "full",
+    "editor.detectIndentation": false,
+    "editor.folding": false,
+    "editor.fontFamily": "Ricty Diminished with Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 15,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.minimap.enabled": false,
+    "editor.minimap.showSlider": "always",
+    "editor.renderControlCharacters": true,
     "editor.renderLineHighlight": "gutter",
+    "editor.suggestSelection": "first",
+    "files.autoGuessEncoding": true,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "java.debug.settings.enableRunDebugCodeLens": false,
+    "java.errors.incompleteClasspath.severity": "info",
+    "java.semanticHighlighting.enabled": false,
+    "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    "markdown.preview.breaks": true,
+    "problems.decorations.enabled": false,
+    "terminal.integrated.fontSize": 17,
+    "terminal.integrated.rightClickBehavior": "default",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "vscode-json-editor.theme": "dark",
+    "vsicons.dontShowNewVersionMessage": true,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.zoomLevel": -1,
+    "workbench.colorTheme": "Monokai",
+    "workbench.list.horizontalScrolling": true,
+    "workbench.sideBar.location": "left",
+    "workbench.startupEditor": "none",
     "workbench.statusBar.feedback.visible": false,
     "workbench.tips.enabled": false,
-    "C_Cpp.clang_format_sortIncludes": false,
-    "editor.formatOnType": true,
-    "editor.folding": false,
-    "breadcrumbs.enabled": true,
-    "workbench.startupEditor": "none",
-    "workbench.list.horizontalScrolling": true,
-    "editor.minimap.enabled": false,
-    "editor.formatOnPaste": true,
-
     // Theme Settings
     "editor.tokenColorCustomizations": {
         "[Monokai]": {
@@ -25,6 +52,13 @@
                         "fontStyle": "",
                         "foreground": "#66D9EF"
                     }
+                },
+                {
+                    "name": "Comment",
+                    "scope": "comment",
+                    "settings": {
+                        "foreground": "#75715E"
+                    }
                 }
             ],
         }
@@ -33,10 +67,13 @@
         "[Monokai]": {
             "editor.background": "#111111",
             "sideBar.background": "#222222",
-            "tab.inactiveBackground": "#222222",
+            // "tab.inactiveBackground": "#222222",
+            "tab.inactiveBackground": "#454545",
+            // "tab.activeBackground": "#470143",
             "editor.selectionHighlightBackground": "#e320f53b",
             "editor.selectionBackground": "#850101e0",
+            "editorBracketMatch.background": "#ff15ff7e",
+            "editorBracketMatch.border": "#00000000",
         }
     },
-    "editor.acceptSuggestionOnEnter": "off",
 }
