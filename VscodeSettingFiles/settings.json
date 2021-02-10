@@ -71,6 +71,8 @@
             "tab.inactiveBackground": "#454545",
             // "tab.activeBackground": "#470143",
             "editor.selectionHighlightBackground": "#e320f53b",
+            "editor.wordHighlightBackground": "#e320f53b",
+            "editor.wordHighlightStrongBackground": "#e320f53b",
             "editor.selectionBackground": "#850101e0",
             "editorBracketMatch.background": "#ff15ff7e",
             "editorBracketMatch.border": "#00000000",
