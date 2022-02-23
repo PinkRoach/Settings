@@ -1,3 +1,1 @@
-# Vscode Settings
-
-HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout
+# 自分用設定、スクリプト
